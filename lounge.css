@@ -1,0 +1,166 @@
+body {
+  font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
+  background-color: #28272C;
+  font-size: 90%;
+  margin: 0px;
+}
+
+body {
+  color: #DEDEDE;
+}
+
+.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+nav {
+  background-color: #000;
+  margin: 0px 0px 10px 0px;
+
+  height: 60px;
+  width: 100%;
+  text-align: center;
+
+}
+ul {
+  margin: 0px;
+  list-style-type: none;
+  padding: 15px 0px 5px 0px;
+}
+nav ul li {
+  display: inline;
+  padding: 5px 15px 5px 10px;
+  vertical-align: middle; 
+}
+nav ul li a:link, nav ul li a:visited{
+  color: #fff;
+  border-bottom: none;
+  font-weight: bold;
+}
+nav ul li a:hover{
+  color: #766E6E;
+}  
+
+header{
+  display: table;
+  height: 216px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #766E6E;
+}
+.logo {
+ /* display: flex;
+  justify-content: center; */
+  float: left;
+}
+h1.top{
+    display: table-cell;
+    vertical-align: middle; 
+    font-size: 40px;
+    line-height: 1.0;
+}
+
+
+h1, h2 {
+  color: #766E6E;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+
+h1 {
+  font-size:           150%;
+}
+
+h2 {
+  font-size:           130%;
+}
+
+#main {
+  margin: 40px;
+}
+
+#main p{
+  padding: 8px 0px;
+}  
+
+
+#guarantee {
+  line-height:         1.9em;
+  font-style:          italic;
+  font-family:         Georgia, "Times New Roman", Times, serif;
+  
+  color: #131315;
+  border-color:        28272C;
+  border-width:        2px;
+  border-style:        solid;
+  background-color:    #766E6E;
+  padding:             20px;
+  margin:              20px;
+  margin-right:        320px;
+  
+}
+
+.gText{
+  display: inline;
+}
+
+.picY{
+  float: left;
+  margin: 10px;
+}
+
+#bassists {
+  background-color: #131315;
+  border: thin solid #766E6C;
+  width: 270px;
+  padding: 0px 20px 20px 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  color: #68676D;
+  line-height: 1;
+  float: right;
+}
+
+.pic {
+  text-align: center;
+}
+
+
+#bassists h3 {
+  color: #766E6C;
+  text-align: center;
+}
+
+a:link {
+  color: #68676D; 
+}
+a:visited {
+  color: #68676D;
+}
+a{
+  text-decoration: none;
+}
+
+
+.cd {
+  font-style: italic;
+}
+.artist {
+  font-weight: bold;
+}
+
+img{
+  text-align: center;
+}
+
+
+footer {
+  font-size: 70%;
+  text-align: center;
+  line-height: normal;
+  margin-top: 30px;
+}
+
