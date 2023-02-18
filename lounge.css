@@ -118,9 +118,8 @@ h2 {
   background-color: #131315;
   border: thin solid #766E6C;
   width: 270px;
-  padding: 0px 20px 20px 20px;
-  margin-left: 20px;
-  margin-right: 10px;
+  padding: 0px 20px 10px 20px;
+  margin: 20px 10px 20px 20px;
   color: #68676D;
   line-height: 1;
   float: right;
