@@ -162,6 +162,29 @@ video{
   margin: 0 auto;
 }
 
+table{
+  margin: 0 20px;
+  border: 2px solid #DEDEDE;
+  caption-side: bottom;
+  border-collapse: collapse;
+}
+td, th {
+  border: 2px dotted grey;
+  padding: 5px;
+}
+.txt_right{
+  text-align: right;
+}
+.txt_center{
+  text-align: center;
+}
+th{
+  background-color: #766E6E;
+}
+.cellcolor{
+  background-color: #68676D;
+}
+
 
 footer {
   font-size: 70%;
